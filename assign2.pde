@@ -125,7 +125,7 @@ void draw() {
      if ( 200 < mouseX && mouseX < 440 && 310 < mouseY && mouseY < 350) {
       image(end1,0,0) ; 
       if(mousePressed){
-        gameState = GAME_START ;
+        gameState = GAME_RUN ;
         hpAmount = fullHp/5 ;
         xFighter = 550 ; 
         yFighter = 300 ;
